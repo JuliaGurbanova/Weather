@@ -20,6 +20,13 @@
 		C16483062AD8351E00A0E4CA /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16483052AD8351E00A0E4CA /* Cloud.swift */; };
 		C16483082AD8379500A0E4CA /* CloudGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16483072AD8379500A0E4CA /* CloudGroup.swift */; };
 		C164830A2AD83AC700A0E4CA /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16483092AD83AC700A0E4CA /* CloudsView.swift */; };
+		C1AE249A2B10EE7A0011F053 /* Storm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24992B10EE7A0011F053 /* Storm.swift */; };
+		C1AE249C2B10EECC0011F053 /* StormDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE249B2B10EECC0011F053 /* StormDrop.swift */; };
+		C1AE249E2B10F6E20011F053 /* StormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE249D2B10F6E20011F053 /* StormView.swift */; };
+		C1AE24A02B111C1C0011F053 /* ResidueDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE249F2B111C1C0011F053 /* ResidueDrop.swift */; };
+		C1AE24A22B111F1F0011F053 /* Residue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A12B111F1F0011F053 /* Residue.swift */; };
+		C1AE24A42B1125570011F053 /* ResidueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A32B1125570011F053 /* ResidueView.swift */; };
+		C1AE24A62B1127E00011F053 /* WeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A52B1127E00011F053 /* WeatherDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		C16483052AD8351E00A0E4CA /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		C16483072AD8379500A0E4CA /* CloudGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudGroup.swift; sourceTree = "<group>"; };
 		C16483092AD83AC700A0E4CA /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
+		C1AE24992B10EE7A0011F053 /* Storm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm.swift; sourceTree = "<group>"; };
+		C1AE249B2B10EECC0011F053 /* StormDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormDrop.swift; sourceTree = "<group>"; };
+		C1AE249D2B10F6E20011F053 /* StormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormView.swift; sourceTree = "<group>"; };
+		C1AE249F2B111C1C0011F053 /* ResidueDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidueDrop.swift; sourceTree = "<group>"; };
+		C1AE24A12B111F1F0011F053 /* Residue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residue.swift; sourceTree = "<group>"; };
+		C1AE24A32B1125570011F053 /* ResidueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidueView.swift; sourceTree = "<group>"; };
+		C1AE24A52B1127E00011F053 /* WeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +85,19 @@
 			children = (
 				C16482F72AD8338F00A0E4CA /* WeatherApp.swift */,
 				C16482F92AD8338F00A0E4CA /* ContentView.swift */,
+				C1AE24A52B1127E00011F053 /* WeatherDetailsView.swift */,
 				C16483052AD8351E00A0E4CA /* Cloud.swift */,
 				C16483072AD8379500A0E4CA /* CloudGroup.swift */,
 				C16483092AD83AC700A0E4CA /* CloudsView.swift */,
 				C11990F42B0A35C9006B4044 /* Star.swift */,
 				C11990F62B0A35D2006B4044 /* StarField.swift */,
 				C11990F82B0A35DE006B4044 /* StarsView.swift */,
+				C1AE24992B10EE7A0011F053 /* Storm.swift */,
+				C1AE249D2B10F6E20011F053 /* StormView.swift */,
+				C1AE249B2B10EECC0011F053 /* StormDrop.swift */,
+				C1AE24A12B111F1F0011F053 /* Residue.swift */,
+				C1AE24A32B1125570011F053 /* ResidueView.swift */,
+				C1AE249F2B111C1C0011F053 /* ResidueDrop.swift */,
 				C11ADED62AE1757A009CE94D /* Color-Custom.swift */,
 				C11ADEDA2AE1812F009CE94D /* Color-Interpolation.swift */,
 				C11ADED82AE1799C009CE94D /* Array-GradientStop.swift */,
@@ -164,11 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AE249C2B10EECC0011F053 /* StormDrop.swift in Sources */,
 				C11990F52B0A35C9006B4044 /* Star.swift in Sources */,
+				C1AE24A02B111C1C0011F053 /* ResidueDrop.swift in Sources */,
 				C11ADEDB2AE1812F009CE94D /* Color-Interpolation.swift in Sources */,
 				C16482FA2AD8338F00A0E4CA /* ContentView.swift in Sources */,
+				C1AE249A2B10EE7A0011F053 /* Storm.swift in Sources */,
 				C16483062AD8351E00A0E4CA /* Cloud.swift in Sources */,
+				C1AE249E2B10F6E20011F053 /* StormView.swift in Sources */,
+				C1AE24A62B1127E00011F053 /* WeatherDetailsView.swift in Sources */,
 				C11ADED72AE1757A009CE94D /* Color-Custom.swift in Sources */,
+				C1AE24A22B111F1F0011F053 /* Residue.swift in Sources */,
+				C1AE24A42B1125570011F053 /* ResidueView.swift in Sources */,
 				C16482F82AD8338F00A0E4CA /* WeatherApp.swift in Sources */,
 				C11990F72B0A35D2006B4044 /* StarField.swift in Sources */,
 				C11ADED92AE1799C009CE94D /* Array-GradientStop.swift in Sources */,
