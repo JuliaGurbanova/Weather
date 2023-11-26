@@ -27,6 +27,9 @@
 		C1AE24A22B111F1F0011F053 /* Residue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A12B111F1F0011F053 /* Residue.swift */; };
 		C1AE24A42B1125570011F053 /* ResidueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A32B1125570011F053 /* ResidueView.swift */; };
 		C1AE24A62B1127E00011F053 /* WeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE24A52B1127E00011F053 /* WeatherDetailsView.swift */; };
+		C1B058C22B13A86E00744F80 /* LightningBolt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B058C12B13A86E00744F80 /* LightningBolt.swift */; };
+		C1B058C42B13A9AE00744F80 /* Lightning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B058C32B13A9AE00744F80 /* Lightning.swift */; };
+		C1B058C62B13B51400744F80 /* LightningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B058C52B13B51400744F80 /* LightningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		C1AE24A12B111F1F0011F053 /* Residue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residue.swift; sourceTree = "<group>"; };
 		C1AE24A32B1125570011F053 /* ResidueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidueView.swift; sourceTree = "<group>"; };
 		C1AE24A52B1127E00011F053 /* WeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsView.swift; sourceTree = "<group>"; };
+		C1B058C12B13A86E00744F80 /* LightningBolt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningBolt.swift; sourceTree = "<group>"; };
+		C1B058C32B13A9AE00744F80 /* Lightning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightning.swift; sourceTree = "<group>"; };
+		C1B058C52B13B51400744F80 /* LightningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				C16483052AD8351E00A0E4CA /* Cloud.swift */,
 				C16483072AD8379500A0E4CA /* CloudGroup.swift */,
 				C16483092AD83AC700A0E4CA /* CloudsView.swift */,
+				C1B058C32B13A9AE00744F80 /* Lightning.swift */,
+				C1B058C12B13A86E00744F80 /* LightningBolt.swift */,
+				C1B058C52B13B51400744F80 /* LightningView.swift */,
 				C11990F42B0A35C9006B4044 /* Star.swift */,
 				C11990F62B0A35D2006B4044 /* StarField.swift */,
 				C11990F82B0A35DE006B4044 /* StarsView.swift */,
@@ -199,9 +208,12 @@
 				C1AE24A42B1125570011F053 /* ResidueView.swift in Sources */,
 				C16482F82AD8338F00A0E4CA /* WeatherApp.swift in Sources */,
 				C11990F72B0A35D2006B4044 /* StarField.swift in Sources */,
+				C1B058C22B13A86E00744F80 /* LightningBolt.swift in Sources */,
 				C11ADED92AE1799C009CE94D /* Array-GradientStop.swift in Sources */,
 				C16483082AD8379500A0E4CA /* CloudGroup.swift in Sources */,
 				C11990F92B0A35DE006B4044 /* StarsView.swift in Sources */,
+				C1B058C42B13A9AE00744F80 /* Lightning.swift in Sources */,
+				C1B058C62B13B51400744F80 /* LightningView.swift in Sources */,
 				C164830A2AD83AC700A0E4CA /* CloudsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
