@@ -82,7 +82,7 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-//            StarsView().opacity(starOpacity)
+            StarsView().opacity(starOpacity)
 //
 //            CloudsView(
 //                thickness: cloudThickness,
@@ -90,7 +90,7 @@ struct ContentView: View {
 //                bottomTint: cloudBottomStops.interpolated(amount: time)
 //            )
 
-            SunView(progress: time)
+//            SunView(progress: time)
 //
 //            LightningView(maximumBolts: Int(lightningMaxBolts), forkProbability: Int(lightningForkProbability))
 
