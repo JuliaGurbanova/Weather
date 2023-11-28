@@ -90,7 +90,9 @@ struct ContentView: View {
 //                bottomTint: cloudBottomStops.interpolated(amount: time)
 //            )
 
-            LightningView(maximumBolts: Int(lightningMaxBolts), forkProbability: Int(lightningForkProbability))
+            SunView(progress: time)
+//
+//            LightningView(maximumBolts: Int(lightningMaxBolts), forkProbability: Int(lightningForkProbability))
 
 //            if stormType != .none {
 //                StormView(type: stormType, direction: .degrees(rainAngle), strength: Int(rainIntensity))
